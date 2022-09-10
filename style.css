@@ -143,12 +143,12 @@ button{
 }
 .pro-name .n{
     font-weight: 700;
-    font-size: .6;
+    font-size: .9rem;
     margin: 0;
 }
 .pro-name .na{
     margin: 0;
-    font-size: .6;
+    font-size: .7rem;
 }
 .hero-img2{
     width: 50%;
