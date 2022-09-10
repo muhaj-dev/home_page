@@ -206,8 +206,13 @@ button{
     padding-bottom: 50px;
 }
 .f-con2{
-    width: 90%;
-    margin: auto;
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+}
+.f-con2 img{
+    width: 100%;
+    height: 100%;
 }
 .f-list{
     width: 90%;
@@ -254,6 +259,9 @@ span{
     }
     .f-list ul{
         margin-top: 30px;
+    }
+    .f-con2{
+        margin-left: 40px;
     }
     .links{
         margin-top: 30px;
@@ -334,6 +342,11 @@ span{
     }
     .card{
         width: 95%;
+    }
+    .f-con2{
+        margin-left: 20px;
+        width: 120px;
+        height: 35px;
     }
     .f-input{
         margin: 29px auto;
