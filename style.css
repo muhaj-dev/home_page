@@ -61,11 +61,7 @@ nav{
 button{
     border-radius: 4px;
     width: 38%;
-    /* background-color: hsl(238, 22%, 44%); */
-    /* background-color: hsl(240, 75%, 98%); */
     background-color: hsl(224, 93%, 58%);
-    /* background-color: hsl(170, 45%, 43%); */
-    /* padding: 10px ; */
     box-shadow:4px 3px 10px hsl(0, 0%, 75%);
     color: white;
     border: 1px hsl(224, 93%, 58%) solid;
@@ -254,6 +250,18 @@ span{
 }
 
 @media (max-width: 575px) {
+    nav .img{
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .img img{
+        width: 100%;
+    }
+    .nav-list{
+        width: 200px;
+    }
     .hero-container{
         flex-direction: column-reverse;
     }
