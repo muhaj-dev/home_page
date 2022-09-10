@@ -10,6 +10,10 @@
     list-style: none;
     color: hsl(243, 87%, 12%);
 }
+img{
+    width: 100%;
+    height: 100%;
+}
 
 header{
     width: 100%;
@@ -251,9 +255,13 @@ span{
 
 
 @media (max-width: 575px) {
+    .hero-head{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
     nav .img{
         width: 70px;
-        height: 50px;
+        height: 100%;
         display: flex;
         align-items: center;
     }
@@ -263,8 +271,18 @@ span{
     .nav-list{
         width: 180px;
     }
-    .nav-list ul{
-        font-size: .7rem;
+    .nav-list li{
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .hero-img{
+        width: 90%;
+        height: 220px;
+        margin-bottom: 40px;
+    }
+    .hero-img img{
+        width: 100%;
+        height: 100%;
     }
     .hero-container{
         flex-direction: column-reverse;
