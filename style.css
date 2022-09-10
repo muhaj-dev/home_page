@@ -293,6 +293,9 @@ span{
         width: 100%;
         text-align: center;
     }
+    .card{
+        width: 95%;
+    }
     .f-input{
         margin: 29px auto;
         width: 90%;
