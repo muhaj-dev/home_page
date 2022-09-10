@@ -270,6 +270,8 @@ span{
     }
     .hero-container2{
         flex-direction: column;
+        background-image: url("/images/bg-curve-mobile.svg");
+        padding: 150px auto;
     }
     .hero-content{
         width: 95%;
