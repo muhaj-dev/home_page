@@ -261,32 +261,30 @@ span{
         flex-direction: column;
     }
     .hero-field input{
-        width: 90%;
+        width: 95%;
         margin-bottom: 20px;
     }
     .hero-field button{
-        width: 90%;
+        width: 95%;
         padding: 15px 0;
     }
     .hero-container2{
         flex-direction: column;
     }
     .hero-content{
-        width: 90%;
+        width: 95%;
     }
     .h-w{
         flex-direction: column;
     }
     .hero-content2{
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .hero-img{
         width: 95%;
-        height: 200px;
-        margin-bottom: 200px;
     }
     .f-one{
         flex-direction: column;
@@ -297,7 +295,7 @@ span{
     }
     .f-input{
         margin: 29px auto;
-        width: 80%;
+        width: 90%;
     }
     .f-input button{
         width: 100%;
