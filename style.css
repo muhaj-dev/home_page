@@ -341,10 +341,11 @@ span{
         text-align: center;
     }
     .card{
+        padding: 15px;
         width: 95%;
     }
     .f-con2{
-        margin-left: 20px;
+        margin: auto;
         width: 120px;
         height: 35px;
     }
